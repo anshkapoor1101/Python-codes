@@ -5,4 +5,7 @@ while True:
     for i in range(Num):
         die_roll = random.randint(1, 6)
         print(f"Die {i+1}: {die_roll}")
-    print("Rolling completed")
+    choice=input("Do you still want to play? (y/n): ").strip().lower()
+    if choice == 'n':
+        print("Thanks for playing!")
+        break
