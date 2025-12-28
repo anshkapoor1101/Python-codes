@@ -10,4 +10,4 @@ while True:
     choice=input("Do you still want to play? (y/n): ").strip().lower()
     if choice == 'n':
         print("Thanks for playing!")
-        break
+        break 
